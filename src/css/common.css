@@ -16,3 +16,35 @@ img {
   display: block;
   max-width: 100%;
 }
+#datetime-picker {
+  font-size: x-large;
+  box-sizing: border-box;
+  font-weight: bold;
+  border-radius: 15px;
+  border-color: darkgreen;
+}
+button {
+  font-size: x-large;
+  border-radius: 15px;
+  margin: 10px;
+  /* background-color: darkgreen;
+  color: #fff;
+  border-color: darkgreen; */
+}
+.field {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 28px;
+}
+.value {
+  font-size: xxx-large;
+  font-weight: lighter;
+  color: dimgrey;
+}
+.label {
+  font-size: large;
+  font-weight: bold;
+  text-transform: lowercase;
+  color: dimgrey;
+}
